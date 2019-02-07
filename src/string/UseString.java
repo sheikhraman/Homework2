@@ -1,7 +1,9 @@
 package string;
 public class UseString {
      String name ="Sheikh Rahman";
-     String names ="Sheikh Rahman";
+     String fname ="Sheikh";
+     String lname = "Rahman";
+    // String fullName=fname+lname;
      public void lenghtOfName() {
     	System.out.println("Length of name is :"+name.length()); 
      }
@@ -37,6 +39,14 @@ public class UseString {
      public void emptyVariable() {
     	 boolean empValue  = name.isEmpty();
     	 System.out.println(empValue);
+     }
+     public void concatName() {
+    	 String fullName =fname.concat (lname);
+    	 System.out.println("Full Name is :"+fullName);
+     }
+     public void startWith() {
+    	 boolean strt =fname.startsWith("S");
+    	 System.out.println("First name start with :"+strt);
      }
      
      

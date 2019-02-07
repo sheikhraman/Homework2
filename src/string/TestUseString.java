@@ -14,6 +14,8 @@ public class TestUseString {
 		usestr.contentTrueFalse();
 		usestr.variableValueBlank();
 		usestr.emptyVariable();
+		usestr.concatName();
+		usestr.startWith();
 
 	}
 	
